@@ -1,0 +1,33 @@
+*{
+   background-color: bisque;
+}
+.flex{
+    margin-top: 100px;
+    display:flex;
+    justify-content: space-around;
+    
+}
+.c{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 65px;
+    font-style: italic;
+}
+.b{
+    background-color: rgb(168, 60, 60);
+    font-size: medium;
+    font-weight: 700;
+    font-style: oblique;
+    padding: 9px 80px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 46px;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    margin: 0;
+}
