@@ -14,20 +14,43 @@
     font-size: 65px;
     font-style: italic;
 }
-.b{
+#count{
     background-color: rgb(168, 60, 60);
     font-size: medium;
     font-weight: 700;
     font-style: oblique;
-    padding: 9px 80px;
+    width: 170px;
+    padding: 7px;
+    border-radius: 20px;
     color: white;
     border: none;
     cursor: pointer;
-    margin-left: 46px;
+    margin-left: 60px;
+}
+#reset{
+    background-color: rgb(168, 60, 60);
+    font-size: medium;
+    font-weight: 700;
+    font-style: oblique;
+    padding: 9px 50px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    position: absolute;
+   top: 90%;
+   left: 50%;
+   -ms-transform: translate(-50%,-50%);
+   transform: translate(-50%,-50%);
+}
+hr.hr{
+    border-top: 1px solid bisque;
 }
 .box{
     height: 300px;
     width: 300px;
     border: 2px solid black;
     margin: 0;
+    padding-bottom: 10px;
 }

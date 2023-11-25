@@ -1,14 +1,21 @@
-var num=-1;
+var num=0;
 function count(){
-    num=num+1;
+    num++;
+    var text=document.getElementById("counter");
+    text.innerHTML=num;
+    
+}
+count();
+
+function rev(){
+    num--;
     var text=document.getElementById("counter");
     text.innerHTML=num;
 }
-count();
-var num2=101;
-function bcount(){
-    num2=num2-1;
-    var text=document.getElementById("bcounter");
-    text.innerHTML=num2;
+rev();
+function reset(){
+    num=0;
+    var text=document.getElementById("counter");
+    text.innerHTML=num;
 }
-bcount();
+reset();
