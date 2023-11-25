@@ -37,9 +37,8 @@
     color: white;
     border: none;
     cursor: pointer;
-    margin-left: 200px;
     margin-top: 50px;
-   
+    margin-left: 45%;
 }
 hr.hr{
     border-top: 1px solid bisque;
