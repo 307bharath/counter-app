@@ -27,24 +27,12 @@
     cursor: pointer;
     margin-left: 60px;
 }
-#reset{
-    background-color: rgb(168, 60, 60);
-    font-size: medium;
-    font-weight: 700;
-    font-style: oblique;
-    padding: 9px 50px;
-    border-radius: 20px;
-    color: white;
-    border: none;
-    cursor: pointer;
-    margin-top: 50px;
-    margin-left: 45%;
-}
+
 hr.hr{
     border-top: 1px solid bisque;
 }
 .box{
-    height: 300px;
+    height: 350px;
     width: 300px;
     border: 2px solid black;
     margin: 0;
